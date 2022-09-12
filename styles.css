@@ -1,10 +1,66 @@
 /* =================== Global ================== */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+
+/* =================== Sections ================== */
+
+.section-top-header {
+    height: 30vh;
+    background-color: blue;
+}
+
+.section-main {
+    height: 100vh;
+    background: red;
+}
+
+.section-bottom-footer {
+    height: 30vh;
+    background: yellow;
+}
 
 /* =================== Header (including nav) ================== */
 
+.container-title {
+
+}
+
+.header-nav {
+
+}
+
+.header-nav-ul {
+
+}
+
 /* =================== Footer ================== */
 
+.site-by {
+
+}
+
+.footer-nav {
+
+}
+
+.footer-nav-ul {
+
+}
+
 /* =================== Home (index.html) ================== */
+
+.container-left-pane {
+
+}
+
+.container-right-pane {
+    
+}
 
 /* =================== About ================== */
 
