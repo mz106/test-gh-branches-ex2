@@ -17,8 +17,10 @@
 .section-main {
     height: 100vh;
     background-image: url("https://cdn.discordapp.com/attachments/840847871321440306/1022873026368385044/backtofuture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100vw;
 }
 
