@@ -16,7 +16,7 @@
 
 .section-main {
     height: 100vh;
-    background: red;
+    background-image: url("https://cdn.discordapp.com/attachments/840847871321440306/1022873026368385044/backtofuture.jpg");
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -79,7 +79,6 @@
     justify-content: center;
     font-size: 3em;
     width: 50%;
-    
 }
 .container-subtitle p{
     display: flex;
