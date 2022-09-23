@@ -17,6 +17,9 @@
 .section-main {
     height: 100vh;
     background: red;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 
 .section-bottom-footer {
@@ -65,7 +68,25 @@
 /* =================== About ================== */
 
 .container-subtitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+.container-subtitle h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    width: 50%;
+    
+}
+.container-subtitle p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    width: 50%;
 }
 
 .container-about-content {
