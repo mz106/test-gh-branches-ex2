@@ -79,7 +79,7 @@
 
 .container-subtitle h1{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 3em;
     width: 50%;
 }
