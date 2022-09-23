@@ -78,10 +78,28 @@
 /* =================== Home (index.html) ================== */
 
 .container-left-pane {
-
+    float: left;
+    padding: 10px;
+    color: rgb(0, 31, 59);
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
 }
 
 .container-right-pane {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 40, 74);
+    align-items: center;
+    float: right;
+    padding: 10px;
+    height: 20vh;
+    width: 50%
+    
+    
+    
 
 }
 
