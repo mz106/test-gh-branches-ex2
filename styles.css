@@ -92,11 +92,85 @@
 /* =================== Contact ================== */
 
 .container-contact-subtitle {
-
+    color: black;
 }
 
+h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 20px;
+}
+
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: black;
+    padding: .2rem 0;
+    margin-right: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: white;
+   }
+   
+   .input::placeholder {
+    color: black;
+   }
+   
+   .input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   
+   .input2 {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: black;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+   }
+   
+   .input2:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: white;
+   }
+   
+   .input2::placeholder {
+    color: black;
+   }
+   
+   .input2:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }   
+
 .container-contact-form {
-    
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+img {
+    position: relative;
+    top: 80px;
+    height: 200px;
+    width: 300px;
 }
 
 /* ================= sundry  ================== */
